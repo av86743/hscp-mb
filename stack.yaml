@@ -18,7 +18,7 @@
 # resolver: ./custom-snapshot.yaml
 # resolver: https://example.com/snapshots/2018-01-01.yaml
 
-resolver: ghc-7.10.2
+resolver: ghc-9.2.5
 
 #resolver:
 #  url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/20/11.yaml
@@ -43,20 +43,20 @@ packages:
 #
 extra-deps:
 
-  - haskell-src-exts-1.15.0.1
+  - haskell-src-exts-1.23.0
 
   - cpphs-1.18.3
   - old-locale-1.0.0.7
   - old-time-1.1.0.3
 
-  - polyparse-1.11
-  - text-1.2.2.2
+  - polyparse-1.13
+  - text-1.2.5.0
 
   - prettyclass-1.0.0.0
 
   - happy-1.20.0
-  - mtl-2.2.1
-  - transformers-0.4.2.0
+  - mtl-2.2.2
+  - transformers-0.5.6.0
 
 # - acme-missiles-0.3
 # - git: https://github.com/commercialhaskell/stack.git

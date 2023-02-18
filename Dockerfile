@@ -25,7 +25,7 @@ RUN	sh -ex; \
 	;:
 
 ARG	STACKVER=2.9.1
-ARG	GHCVER=7.10.2
+ARG	GHCVER=9.2.5
 
 RUN	sh -ex; \
 	SD='stack-'"$STACKVER"'-linux-x86_64-static'; \
